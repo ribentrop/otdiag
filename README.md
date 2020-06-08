@@ -31,3 +31,17 @@ def add_file_to_diag(file_path, diag_path, add_diag_name=True):
 # Добавление строки в diag
 def add_string_to_diag(content, diag_path):
 ```
+6. Запуск:
+Просто без опций:
+```
+[root@otsupport-spark1 otpdiag]#/opt/splunk/bin/splunk cmd python /opt/splunk/lib/python3.7/site-packages/splunk/clilib/otpdiag/otpdiag.py --help
+```
+Исключить сбор конфигов:
+```
+[root@otsupport-spark1 otpdiag]#/opt/splunk/bin/splunk cmd python /opt/splunk/lib/python3.7/site-packages/splunk/clilib/otpdiag/otpdiag.py --disable=configs
+```
+Получить хелп:
+```
+[root@otsupport-spark1 otpdiag]#/opt/splunk/bin/splunk cmd python /opt/splunk/lib/python3.7/site-packages/splunk/clilib/otpdiag/otpdiag.py --help
+```
+
